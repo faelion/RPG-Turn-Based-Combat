@@ -23,6 +23,9 @@
     <li>
       <a href="#Introduction">Introduction</a>
     </li>
+    <li>
+      <a href="#Conclusion">Conclusion</a>
+    </li>
   </ol>
 </details>
 
@@ -62,3 +65,16 @@ Now that we have seen how turns work and what approaches we can follow, we can l
 Basic Attacks and Special Attacks:
 
 The first decision that we will question about our combat is if our game will have a basic attack. Maybe in our game, characters will only use skills and spells and wouldn't depend on a weapon to do damage. We all know a perfect example of a game that doesn't use basic attacks, such as Pokemon, and on the other complete opposite hand, we have games that the only way to attack is through a basic one, like for example Undertale. Adding a resource is a perfect way to add more powerful ways to attack, something that will be static throughout the entire battle, something that will not recharge after every turn, something that
+
+## Conclusion
+In conclusion, turn-based RPGs are a popular genre of video games that have been around for several decades. They offer players a unique and strategic gameplay experience, and there are two main types of turn-based combat: classic turn-based and strategy/tactic.
+
+All turn-based games have three main mechanics in common: turn distribution, turn execution, and actions that take place during those turns.
+
+When it comes to turn distribution, there are many ways to approach the concept, but the most common is the use of a stat-related order, such as speed or initiative. However, there are ways to add more spice to this system, such as turning turns into a real-time interactive system or using turns as a resource.
+
+Turn execution can vary between games, with some games allowing players to plan all their attacks before the turn is executed, while others play turns right after the decided action.
+
+Finally, when it comes to actions, players typically have access to basic attacks, special attacks, spells, items, and the ability to change party members. The decision to include a basic attack or not can greatly impact gameplay, and the use of a resource for special attacks can add more strategy to battles.
+
+Overall, turn-based RPGs offer a diverse range of gameplay mechanics and can provide players with hours of strategic and engaging gameplay.
