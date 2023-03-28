@@ -24,10 +24,10 @@
       <a href="#Introduction">Introduction</a>
     </li>
     <li>
-      <a href="#Types of Turn-Based Combat">Types of Turn-Based Combat</a>
+      <a href="#Types_of_Turn-Based_Combat">Types of Turn-Based Combat</a>
     </li>
     <li>
-      <a href="#Elements_of_Turn-Based_Combat">Elements_of_Turn-Based_Combat</a>
+      <a href="#Elements_of_Turn-Based_Combat">Elements of Turn-Based Combat</a>
     </li>
     <li>
       <a href="#Conclusion">Conclusion</a>
@@ -38,7 +38,7 @@
 ## Introduction
 Today's discussion will focus on the mechanics of turn-based RPG combat. We will explore different types of turn-based RPGs, the basic elements that compose this type of combat, and how to design and develop a turn-based combat system.
 
-## Types of Turn-Based Combat
+## Types_of_Turn-Based_Combat
 
 In the history of turn-based RPGs, there are two main types of combat that remain until today and have standardized the genre: Classic turn-based and Strategic/tactical combat.
 
