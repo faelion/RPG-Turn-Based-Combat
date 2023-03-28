@@ -27,7 +27,7 @@
       <a href="#Types of Turn-Based Combat">Types of Turn-Based Combat</a>
     </li>
     <li>
-      <a href="#Elements of Turn-Based Combat">Elements of Turn-Based Combat</a>
+      <a href="#Elements_of_Turn-Based_Combat">Elements_of_Turn-Based_Combat</a>
     </li>
     <li>
       <a href="#Conclusion">Conclusion</a>
@@ -52,7 +52,7 @@ On the other hand, strategic or tactical combat is seen in games like the Fire E
 
 <img src="docs/images/3.gif" alt="Plot" width="400" height="250"> <img src="docs/images/4.gif" alt="Plot" width="400" height="250">
 
-## Elements of Turn-Based Combat
+## Elements_of_Turn-Based_Combat
 
 All turn-based combat systems share three main mechanics: turn distribution/turn economy, turn execution, and the actions that take place during those turns.
 
