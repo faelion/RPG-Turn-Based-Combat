@@ -21,7 +21,7 @@
   <summary>Index</summary>
   <ol>
     <li>
-      <a href="#Introduction">Introduction</a>
+      <a href="#Introduction_">Introduction</a>
     </li>
     <li>
       <a href="#Types_of_Turn-Based_Combat">Types of Turn-Based Combat</a>
@@ -30,12 +30,12 @@
       <a href="#Elements_of_Turn-Based_Combat">Elements of Turn-Based Combat</a>
     </li>
     <li>
-      <a href="#Conclusion">Conclusion</a>
+      <a href="#Conclusion_">Conclusion</a>
     </li>
   </ol>
 </details>
 
-## Introduction
+## Introduction_
 Today's discussion will focus on the mechanics of turn-based RPG combat. We will explore different types of turn-based RPGs, the basic elements that compose this type of combat, and how to design and develop a turn-based combat system.
 
 ## Types_of_Turn-Based_Combat
@@ -78,7 +78,7 @@ Basic Attacks and Special Attacks:
 
 The first decision that we will question about our combat is if our game will have a basic attack. Maybe in our game, characters will only use skills and spells and wouldn't depend on a weapon to do damage. We all know a perfect example of a game that doesn't use basic attacks, such as Pokemon, and on the other complete opposite hand, we have games that the only way to attack is through a basic one, like for example Undertale. Adding a resource is a perfect way to add more powerful ways to attack, something that will be static throughout the entire battle, something that will not recharge after every turn, something that
 
-## Conclusion
+## Conclusion_
 In conclusion, turn-based RPGs are a popular genre of video games that have been around for several decades. They offer players a unique and strategic gameplay experience, and there are two main types of turn-based combat: classic turn-based and strategy/tactic.
 
 All turn-based games have three main mechanics in common: turn distribution, turn execution, and actions that take place during those turns.
