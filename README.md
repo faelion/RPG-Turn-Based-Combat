@@ -55,28 +55,52 @@ On the other hand, strategic or tactical combat is seen in games like the Fire E
 ## Elements_of_Turn-Based_Combat
 
 All turn-based combat systems share three main mechanics: turn distribution/turn economy, turn execution, and the actions that take place during those turns.
+Depending on the type of game it could have more elements but in a basic turn based system, these would be the main ones.
 
 ### Turn Distribution:
 
 In our game, we need to develop a system to distribute the turns. There are many different ways to approach this concept, but the most classic one is a stat-related order. This is the most common way to assign an order to turns done by the majority of RPGs. Basically, it consists of having a stat related to every character that will sort the turns respectively at the start of an encounter. This order will not change for the rest of the battle.
 
-For example, in Pokemon, every Pokemon has a stat called speed that will determine which Pokemon attack first in the course of actions. In the case of Wakfu or many other games, every character has an initiative stat that will sort the turns in order. It is also important to decide if the enemies will be sorted between the allies by default or not.
+For example, in Pokemon, every Pokemon has a stat called speed that will determine which Pokemon attack first in the course of actions. In the case of Wakfu or many other games, every character has an initiative stat that will sort the turns in order. That is the case for sorting allies or playable characters, there are different ways to sort the enemies.
+
+Enemies could have a stat such as the playable characters or separate allies turn from enemies turn, but often games place the turn of the enemies between every ally, placing allies and enemies in the next order: `Ally -> Enemy -> Ally -> Enemy ->...`, so joining a battle would have allies and enemies turns separated evenly.
+
+<img src="docs/images/5.gif" alt="Plot" width="400" height="200"> <img src="docs/images/6.gif" alt="Plot" width="400" height="200">
 
 Turns as a Resource:
 
 What if we take the speed stat and transform the concept of turns into a kind of real-time interactive system? There are many ways to develop a different turn-based system rather than just turn-by-turn. For example, turns can be used as a resource, where the speed stat determines how often a character can act during a turn. This approach can add more spice to the game and make the combat system more engaging.
 
+Two recomended videos: [Child of light](https://youtu.be/ktogjiX3eI4?t=459), [Ruined King](https://youtu.be/8vJrYG8ykQk?t=92)
+
 ### Turn Execution
 
 Throughout the years, RPGs have been divided in how turns are played. For example, in Pokemon or Pit People, the player plans all their attacks, and then the turn is played following the stat order. On the other hand, in Persona or other kinds of games, the turn is played right after the decided action, and every character has their turn and is played separately from other units.
+
+<img src="docs/images/7.gif" alt="Plot" width="350" height="250"> <img src="docs/images/8.gif" alt="Plot" width="400" height="250">
 
 ### Actions
 
 Now that we have seen how turns work and what approaches we can follow, we can look at what the player can or cannot do during the turn. Normally, the player can attack, use a spell, defend, use an item, or maybe change a party member.
 
-Basic Attacks and Special Attacks:
+#### Basic Attacks
 
-The first decision that we will question about our combat is if our game will have a basic attack. Maybe in our game, characters will only use skills and spells and wouldn't depend on a weapon to do damage. We all know a perfect example of a game that doesn't use basic attacks, such as Pokemon, and on the other complete opposite hand, we have games that the only way to attack is through a basic one, like for example Undertale. Adding a resource is a perfect way to add more powerful ways to attack, something that will be static throughout the entire battle, something that will not recharge after every turn, something that
+The first decision that we will question about our combat is if our game will have a basic attack. Maybe in our game, characters will only use skills and spells and wouldn't depend on a weapon to do damage. We all know a perfect example of a game that doesn't use basic attacks, such as Pokemon, and on the other complete opposite hand, we have games that the only way to attack is through a basic one, like for example Undertale.
+
+#### Special Attacks
+
+What diferences a basic attack from an special one? The first factor is probably the damage, special attacks deal a lot of damage, but the point of special attacks are the use and manage of a resource. Adding a resource is a perfect way to add more powerful ways to attack, something that will be static throughout the entire battle, something that will not recharge after every turn. The player will have to manage a resource, adding an extra complexity layer to simple combat.
+
+#### Effects, Buffs & Debuffs
+
+Special attacks, or even basic ones usually are not plain damage, they cause some effects ingame. Every turn based combat should have effects on their action system. Adding special abilities that cause some effects such as buffs and debuffs is a perfect way to do a more dynamic combat.
+
+<img src="docs/images/9.gif" alt="Plot" width="400" height="200"> <img src="docs/images/10.gif" alt="Plot" width="400" height="200">
+
+#### Types: strengths and weaknesses
+
+Such as effects, adding types to our game is a great way to add complexity and more interesting enemies.
+
 
 ## Conclusion_
 In conclusion, turn-based RPGs are a popular genre of video games that have been around for several decades. They offer players a unique and strategic gameplay experience, and there are two main types of turn-based combat: classic turn-based and strategy/tactic.
